@@ -7,3 +7,5 @@ This document provides instructions and context for autonomous agents working in
 2. **Command execution**: Prefer running commands inside the active directory of the sub-project (`ml project 1/`).
 3. **Step-by-step updates**: Before proceeding with a major change (like training a new model architecture or applying a major transformation), update the documentation in the `docs/` folder.
 4. **Git Commits**: Commit logical changes after completing milestones (e.g., "Step 1: Data preprocessing complete").
+5. **Commenting Style**: Write self-explanatory code accompanied by clean, single-line comments for key operations.
+6. **Git Pushes**: Commit and push progress to the `main` branch regularly (at least every 200 lines of code) with descriptive, short commit messages.
