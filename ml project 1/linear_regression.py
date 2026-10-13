@@ -2,11 +2,9 @@
 import matplotlib
 matplotlib.use('Agg')
 
-# Import numerical processing, dataframe management, and plotting libraries
+# Import numerical processing and dataframe management libraries
 import numpy as np # Numerical calculations
 import pandas as pd # Dataframe management
-import matplotlib.pyplot as plt # Visualization base
-import seaborn as sns # Premium visualizations
 
 # Import sklearn data generation, prep, pipeline, and linear model modules
 from sklearn.datasets import make_regression # Synthetic data generator
